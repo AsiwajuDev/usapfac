@@ -33,7 +33,7 @@ export default function Footer() {
           <h3 className="tracking-tighter text-sm sm:text-base font-normal mb-8 leading-tight text-white text-center">
             Copyright &copy;
             <span className="px-1">{new Date().getFullYear()}</span>
-            2020 USAPFAC. All Rights Reserved.
+            USAPFAC. All Rights Reserved.
           </h3>
           <div className="flex justify-center">
             <Link href="#">
