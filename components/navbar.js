@@ -56,7 +56,7 @@ export default function NavBar() {
             </span>
             <ul className="dropdown-menu z-20 absolute text-left hidden text-white pt-1 divide-y divide-white px-6">
               <li className="">
-                <Link href="#">
+                <Link href="/about">
                   <a className="rounded-t-lg bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
                     History/About us
                   </a>
@@ -255,9 +255,11 @@ export default function NavBar() {
 
         <div className="text-center text-white mb-3">
           <div className="dropdown inline-block relative">
-            <a className="bg-transparent border border-white hover:border-red-500 font-semibold py-2 w-32 justify-center rounded-full inline-flex items-center">
-              <span className="mr-1">Contact</span>
-            </a>
+            <Link href="/contact">
+              <a className="bg-transparent border border-white hover:border-red-500 font-semibold py-2 w-32 justify-center rounded-full inline-flex items-center">
+                <span className="mr-1">Contact</span>
+              </a>
+            </Link>
             <span className="px-2">
               <i className="fa fa-caret-down" aria-hidden="true"></i>
             </span>

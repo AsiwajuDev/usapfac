@@ -15,7 +15,7 @@ export default function Header({ fixed }) {
         <nav className="items-center">
           <div className="flex">
             <div className="flex w-2/3">
-              <Link href="#">
+              <Link href="/">
                 <a>
                   <img
                     src="/favicon/logo.png"
@@ -24,7 +24,7 @@ export default function Header({ fixed }) {
                 </a>
               </Link>
               <div className="pl-4">
-                <Link href="#">
+                <Link href="/">
                   <a>
                     <img
                       src="/favicon/logo2.png"
