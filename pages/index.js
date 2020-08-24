@@ -10,7 +10,7 @@ import Frame from "../components/frame";
 
 export default function Index() {
   return (
-    <Layout>
+    <Layout imageUrl={{ backgroundImage: "url(/favicon/header.jpg)" }}>
       <Head>
         <title>{SITE_NAME}</title>
       </Head>
@@ -31,7 +31,7 @@ export default function Index() {
                     <br /> together
                   </p>
                 </div>
-                <div className="border-l-8 border-red-600 px-4">
+                <div className="border-l-4 border-red-600 px-4">
                   <div class="max-w-sm rounded bg-white overflow-hidden shadow-lg">
                     <div class="px-6 py-4">
                       <div class="text-green-400 font-semibold text-sm sm:text-lg lg:text-lg mb-2">

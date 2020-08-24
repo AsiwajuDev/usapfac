@@ -2,15 +2,13 @@ import React, { useState } from "react";
 import Link from "next/link";
 import NavBar from "./navbar";
 
-export default function Header({ fixed }) {
+export default function Header({ fixed, bgImage }) {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <div>
       <div
         className="mx-auto bg-cover bg-bottom h-auto p-4 pb-1 md:p-8 md:pb-2"
-        style={{
-          backgroundImage: "url(/favicon/header.jpg)",
-        }}
+        style={bgImage}
       >
         <nav className="items-center">
           <div className="flex">

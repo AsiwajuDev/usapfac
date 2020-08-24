@@ -10,7 +10,7 @@ import Frame from "../components/frame";
 
 export default function Contact() {
   return (
-    <Layout>
+    <Layout imageUrl={{ backgroundImage: "url(/favicon/contact-header.jpg)" }}>
       <Head>
         <title>{SITE_NAME}</title>
       </Head>

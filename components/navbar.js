@@ -64,30 +64,21 @@ export default function NavBar() {
               </li>
               <li className="">
                 <Link href="#">
-                  <a
-                    className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                    href="#"
-                  >
+                  <a className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
                     Values
                   </a>
                 </Link>
               </li>
               <li className="">
                 <Link href="#">
-                  <a
-                    className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                    href="#"
-                  >
+                  <a className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
                     Staff and Board
                   </a>
                 </Link>
               </li>
               <li className="">
                 <Link href="#">
-                  <a
-                    className="bg-black rounded-b-lg hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                    href="#"
-                  >
+                  <a className="bg-black rounded-b-lg hover:bg-black py-2 px-4 block whitespace-no-wrap">
                     Sponsors
                   </a>
                 </Link>
@@ -106,41 +97,29 @@ export default function NavBar() {
             </span>
             <ul className="dropdown-menu z-20 absolute text-left hidden text-white pt-1 divide-y divide-white px-6">
               <li className="">
-                <Link href="#">
-                  <a
-                    className="rounded-t-lg bg-black hover:bg-black py-2 px-4 pr-8 block whitespace-no-wrap"
-                    href="#"
-                  >
+                <Link href="/newsroom">
+                  <a className="rounded-t-lg bg-black hover:bg-black py-2 px-4 pr-8 block whitespace-no-wrap">
                     African News
                   </a>
                 </Link>
               </li>
               <li className="">
                 <Link href="#">
-                  <a
-                    className="bg-black hover:bg-black py-2 px-4 pr-8 block whitespace-no-wrap"
-                    href="#"
-                  >
+                  <a className="bg-black hover:bg-black py-2 px-4 pr-8 block whitespace-no-wrap">
                     World News
                   </a>
                 </Link>
               </li>
               <li className="">
                 <Link href="#">
-                  <a
-                    className="bg-black hover:bg-black py-2 px-4 pr-8 block whitespace-no-wrap"
-                    href="#"
-                  >
+                  <a className="bg-black hover:bg-black py-2 px-4 pr-8 block whitespace-no-wrap">
                     Local News
                   </a>
                 </Link>
               </li>
               <li className="">
                 <Link href="#">
-                  <a
-                    className="bg-black rounded-b-lg hover:bg-black py-2 px-4 pr-8 block whitespace-no-wrap"
-                    href="#"
-                  >
+                  <a className="bg-black rounded-b-lg hover:bg-black py-2 px-4 pr-8 block whitespace-no-wrap">
                     Covid 19
                   </a>
                 </Link>
@@ -159,39 +138,22 @@ export default function NavBar() {
             </span>
             <ul className="dropdown-menu z-20 absolute text-left hidden text-white pt-1 divide-y divide-white px-6">
               <li className="">
-                <Link href="#">
-                  <a
-                    className="rounded-t-lg bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                    href="#"
-                  >
+                <Link href="/experience">
+                  <a className="rounded-t-lg bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
                     1st Edition
                   </a>
                 </Link>
               </li>
               <li className="">
                 <Link href="#">
-                  <a
-                    className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                    href="#"
-                  >
+                  <a className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
                     2nd Edition
                   </a>
                 </Link>
               </li>
-              {/* <li className="">
-                <a
-                  className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                  href="#"
-                >
-                  Entertainments
-                </a>
-              </li> */}
               <li className="">
                 <Link href="#">
-                  <a
-                    className="bg-black rounded-b-lg hover:bg-black py-2 px-4 pr-10 block whitespace-no-wrap"
-                    href="#"
-                  >
+                  <a className="bg-black rounded-b-lg hover:bg-black py-2 px-4 pr-10 block whitespace-no-wrap">
                     Entertainments
                   </a>
                 </Link>
@@ -210,41 +172,29 @@ export default function NavBar() {
             </span>
             <ul className="dropdown-menu z-20 absolute text-left hidden text-white pt-1 divide-y divide-white px-6">
               <li className="">
-                <Link href="#">
-                  <a
-                    className="rounded-t-lg bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                    href="#"
-                  >
+                <Link href="/gallery">
+                  <a className="rounded-t-lg bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
                     1st Edition Pictures
                   </a>
                 </Link>
               </li>
               <li className="">
                 <Link href="#">
-                  <a
-                    className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                    href="#"
-                  >
+                  <a className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
                     Seminars
                   </a>
                 </Link>
               </li>
               <li className="">
                 <Link href="#">
-                  <a
-                    className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                    href="#"
-                  >
+                  <a className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
                     Meeting
                   </a>
                 </Link>
               </li>
               <li className="">
                 <Link href="#">
-                  <a
-                    className="bg-black rounded-b-lg hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                    href="#"
-                  >
+                  <a className="bg-black rounded-b-lg hover:bg-black py-2 px-4 block whitespace-no-wrap">
                     Programme for <br /> 2020 Edition
                   </a>
                 </Link>
@@ -302,9 +252,11 @@ export default function NavBar() {
 
         <div className="text-center text-white mb-3">
           <div className="dropdown inline-block relative">
-            <a className="bg-transparent border border-white hover:border-red-500 font-semibold py-2 w-32 justify-center rounded-full inline-flex items-center">
-              <span className="mr-1">Help</span>
-            </a>
+            <Link href="/help">
+              <a className="bg-transparent border border-white hover:border-red-500 font-semibold py-2 w-32 justify-center rounded-full inline-flex items-center">
+                <span className="mr-1">Help</span>
+              </a>
+            </Link>
             <span className="px-2">
               <i className="fa fa-caret-down" aria-hidden="true"></i>
             </span>

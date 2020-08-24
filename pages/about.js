@@ -10,7 +10,7 @@ import Frame from "../components/frame";
 
 export default function About() {
   return (
-    <Layout>
+    <Layout imageUrl={{ backgroundImage: "url(/favicon/about-header.jpg)" }}>
       <Head>
         <title>{SITE_NAME}</title>
       </Head>
@@ -24,14 +24,14 @@ export default function About() {
               <div className="mb-4">
                 <div className="mx-6 mb-6">
                   <p className="text-white font-bold text-xl">who we are</p>
-                  <p className="text-white text-6xl leading-none sm:text-7xl font-bold pb-4">
+                  <p className="text-white text-4xl leading-none sm:text-5xl font-bold pb-4">
                     the power
                     <br />
                     of great culture
                     <br /> and Africa
                   </p>
                 </div>
-                <div className="border-l-8 border-red-600 px-4">
+                <div className="border-l-4 border-red-600 px-4">
                   <div class="max-w-sm rounded bg-white overflow-hidden shadow-lg">
                     <div class="px-6 py-4">
                       <div class="text-green-400 font-semibold text-sm sm:text-lg lg:text-lg mb-2">
@@ -46,7 +46,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
-              <div class="hidden md:block rounded w-56 bg-white  overflow-hidden shadow-lg">
+              <div class="hidden md:block rounded w-56 bg-white justify-center overflow-hidden shadow-lg">
                 <div class="mx-12 py-4">
                   <div>
                     <p className="mb-4">

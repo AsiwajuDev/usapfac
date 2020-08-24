@@ -3,7 +3,7 @@ import Footer from "../components/footer";
 import Meta from "../pages/meta";
 import Header from "./header";
 
-export default function Layout({ preview, children }) {
+export default function Layout({ preview, children, imageUrl }) {
   return (
     <>
       <Meta />
@@ -11,7 +11,7 @@ export default function Layout({ preview, children }) {
       {/* min-h-screen */}
       <div className="">
         {/* <Alert preview={preview} /> */}
-        <Header />
+        <Header bgImage={imageUrl} />
         <main>{children}</main>
       </div>
       <Footer />
