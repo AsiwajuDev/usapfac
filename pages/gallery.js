@@ -70,11 +70,6 @@ export default function Gallery() {
                   </div>
                 </div>
               </div>
-
-              {/* <div class="grid grid-cols-6 gap-4">
-                <div class="col-span-3 sm:col-span-2 md:col-span-3 lg:col-span-1 xl:col-span-4"></div>
-                <div class="col-span-3 sm:col-span-2 md:col-span-3 lg:col-span-4 xl:col-span-2"></div>
-              </div> */}
             </div>
           </div>
         </div>
