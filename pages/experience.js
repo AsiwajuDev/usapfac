@@ -20,7 +20,7 @@ export default function Experience() {
         <div className="flex flex-wrap mr-4 justify-center  md:flex-no-wrap md:justify-between md:mx-4 lg:mx-0">
           <div className="md:w-1/5">
             <div class="hidden md:block bg-white overflow-hidden">
-              <div class="px-6 py-4 ml-16">
+              <div class="px-6 pt-3 ml-12">
                 <div className="mb-4">
                   <p className="mb-3">
                     <div class="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">

@@ -14,6 +14,10 @@
 
 /* Your own custom utilities */
 
+.left-custom {
+  left: "1020px";
+}
+
 .has-text-align-left {
   @apply text-left;
 }

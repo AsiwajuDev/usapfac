@@ -16,7 +16,7 @@ export default function Newsroom() {
       </Head>
       <div>
         <div
-          className="bg-cover bg-no-repeat bg-top pt-10 pb-16"
+          className="bg-cover bg-no-repeat bg-top py-8"
           style={{ backgroundImage: "url(/favicon/news.jpg)" }}
         >
           <div className="container px-10 lg:mx-auto">

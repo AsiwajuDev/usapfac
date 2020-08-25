@@ -32,20 +32,113 @@ export default function Header({ fixed, bgImage }) {
                 </Link>
               </div>
             </div>
-            <div className="flex justify-center w-1/3">
-              <Link href="#">
-                <a>
-                  <img
-                    src="/favicon/sales.png"
-                    className="h-10 sm:h-16 md:h-20 lg:h-24 mt-4 md:mt-6"
-                  />
-                </a>
-              </Link>
+            <div className="w-1/3">
+              <div className="flex justify-center">
+                <div className="bg-red-600 w-20 text-center text-white pr-4 py-2 rounded-full">
+                  <i className="fa fa-caret-left px-3"></i>
+                  <Link href="">
+                    <a className="font-semibold">Back</a>
+                  </Link>
+                </div>
+              </div>
+
+              <div className=" flex mx-12">
+                {/*  <div className="text-white">
+                  <div className="dropdown relative">
+                    <a className="bg-red-700 font-semibold py-3 pl-3 pr-5 w-28 justify-center rounded-md inline-flex items-center">
+                      <span className="mr-1 uppercase text-sm font-semibold leading-4">
+                        get your ticket
+                      </span>
+                    </a>
+
+                    <ul className="dropdown-menu z-20 absolute text-left hidden text-white pt-1 divide-y divide-white px-6">
+                      <li className="">
+                        <Link href="/about">
+                          <a className="rounded-t-lg bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
+                            History/About us
+                          </a>
+                        </Link>
+                      </li>
+                      <li className="">
+                        <Link href="#">
+                          <a className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
+                            Values
+                          </a>
+                        </Link>
+                      </li>
+                      <li className="">
+                        <Link href="#">
+                          <a className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
+                            Staff and Board
+                          </a>
+                        </Link>
+                      </li>
+                      <li className="">
+                        <Link href="#">
+                          <a className="bg-black rounded-b-lg hover:bg-black py-2 px-4 block whitespace-no-wrap">
+                            Sponsors
+                          </a>
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div className="text-white">
+                  <div className="dropdown absolute left-custom">
+                    <a className="bg-yellow-700 font-semibold py-3 pl-3 pr-5 w-32 justify-center rounded-md inline-flex items-center">
+                      <span className="mr-1 uppercase text-sm font-semibold leading-4">
+                        get your ticket
+                      </span>
+                      
+                    </a>
+
+                    <ul className="dropdown-menu z-20 absolute text-left hidden text-white pt-1 divide-y divide-white px-6">
+                      <li className="">
+                        <Link href="/about">
+                          <a className="rounded-t-lg bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
+                            History/About us
+                          </a>
+                        </Link>
+                      </li>
+                      <li className="">
+                        <Link href="#">
+                          <a className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
+                            Values
+                          </a>
+                        </Link>
+                      </li>
+                      <li className="">
+                        <Link href="#">
+                          <a className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap">
+                            Staff and Board
+                          </a>
+                        </Link>
+                      </li>
+                      <li className="">
+                        <Link href="#">
+                          <a className="bg-black rounded-b-lg hover:bg-black py-2 px-4 block whitespace-no-wrap">
+                            Sponsors
+                          </a>
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
+                */}
+                <Link href="#">
+                  <a>
+                    <img
+                      src="/favicon/sales.png"
+                      className="h-10 sm:h-16 md:h-20 lg:h-24 mt-4 md:mt-6"
+                    />
+                  </a>
+                </Link>
+              </div>
             </div>
           </div>
         </nav>
 
-        <nav className="relative flex flex-wrap items-center bg-cover h-auto justify-end px-2 pt-8 navbar-expand-lg">
+        <nav className="relative flex flex-wrap items-center bg-cover h-auto justify-end px-2 pt-2 navbar-expand-lg">
           <div className="flex flex-wrap items-center justify-between">
             <div className="w-full relative flex justify-end lg:w-auto lg:static lg:block lg:justify-start">
               <button
