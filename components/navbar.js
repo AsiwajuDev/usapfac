@@ -213,40 +213,6 @@ export default function NavBar() {
             <span className="px-2">
               <i className="fa fa-caret-down" aria-hidden="true"></i>
             </span>
-            {/* <ul className="dropdown-menu absolute text-left hidden text-white pt-1 divide-y divide-white px-6">
-              <li className="">
-                <a
-                  className="rounded-t-lg bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                  href="#"
-                >
-                  History/About us
-                </a>
-              </li>
-              <li className="">
-                <a
-                  className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                  href="#"
-                >
-                  Values
-                </a>
-              </li>
-              <li className="">
-                <a
-                  className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                  href="#"
-                >
-                  Staff and Board
-                </a>
-              </li>
-              <li className="">
-                <a
-                  className="bg-black rounded-b-lg hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                  href="#"
-                >
-                  Sponsors
-                </a>
-              </li>
-            </ul> */}
           </div>
         </div>
 
@@ -260,40 +226,6 @@ export default function NavBar() {
             <span className="px-2">
               <i className="fa fa-caret-down" aria-hidden="true"></i>
             </span>
-            {/* <ul className="dropdown-menu absolute text-left hidden text-white pt-1 divide-y divide-white px-6">
-              <li className="">
-                <a
-                  className="rounded-t-lg bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                  href="#"
-                >
-                  History/About us
-                </a>
-              </li>
-              <li className="">
-                <a
-                  className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                  href="#"
-                >
-                  Values
-                </a>
-              </li>
-              <li className="">
-                <a
-                  className="bg-black hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                  href="#"
-                >
-                  Staff and Board
-                </a>
-              </li>
-              <li className="">
-                <a
-                  className="bg-black rounded-b-lg hover:bg-black py-2 px-4 block whitespace-no-wrap"
-                  href="#"
-                >
-                  Sponsors
-                </a>
-              </li>
-            </ul> */}
           </div>
         </div>
       </div>
