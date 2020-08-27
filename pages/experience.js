@@ -14,11 +14,11 @@ export default function Experience() {
       <div>
         <div className="flex flex-wrap mr-4 justify-center  md:flex-no-wrap md:justify-between md:mx-4 lg:mx-0">
           <div className="md:w-1/5">
-            <div class="hidden md:block bg-white overflow-hidden">
-              <div class="px-6 pt-3 ml-12">
+            <div className="hidden md:block bg-white overflow-hidden">
+              <div className="px-6 pt-3 ml-12">
                 <div className="mb-4">
                   <p className="mb-3">
-                    <div class="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
+                    <div className="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
                       1st Edition
                     </div>
                     <div className="border-2 border-red-600 w-16"></div>
@@ -27,7 +27,7 @@ export default function Experience() {
                 </div>
                 <div className="mb-4">
                   <p className="mb-3">
-                    <div class="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
+                    <div className="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
                       2nd Edition
                     </div>
                     <div className="border-2 border-red-600 w-16"></div>
@@ -43,8 +43,8 @@ export default function Experience() {
                 className="bg-cover bg-no-repeat bg-top pt-32 pb-40"
                 style={{ backgroundImage: "url(/favicon/experience.jpg)" }}
               >
-                <div class="grid grid-cols-6 gap-4">
-                  <div class="col-span-3 sm:col-span-2 md:col-span-3 lg:col-span-1 xl:col-span-4">
+                <div className="grid grid-cols-6 gap-4">
+                  <div className="col-span-3 sm:col-span-2 md:col-span-3 lg:col-span-1 xl:col-span-4">
                     <div className="mx-20">
                       <p className="capitalize text-white font-bold text-2xl">
                         Experience
@@ -54,7 +54,7 @@ export default function Experience() {
                       </p>
                     </div>
                   </div>
-                  <div class="col-span-3 sm:col-span-2 md:col-span-3 lg:col-span-4 xl:col-span-2"></div>
+                  <div className="col-span-3 sm:col-span-2 md:col-span-3 lg:col-span-4 xl:col-span-2"></div>
                 </div>
               </div>
             </div>

@@ -17,11 +17,11 @@ export default function Newsroom() {
           <div className="container px-10 lg:mx-auto">
             <div className="flex flex-wrap mr-4 justify-center  md:flex-no-wrap md:justify-between md:mx-4 lg:mx-0">
               <div className="md:w-1/5">
-                <div class="hidden md:block w-56 rounded bg-white overflow-hidden shadow-lg">
-                  <div class="px-6 py-4">
+                <div className="hidden md:block w-56 rounded bg-white overflow-hidden shadow-lg">
+                  <div className="px-6 py-4">
                     <div className="mb-3">
                       <p className="mb-3">
-                        <div class="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
+                        <div className="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
                           African News
                         </div>
                         <div className="border-2 border-red-600 w-16"></div>
@@ -30,7 +30,7 @@ export default function Newsroom() {
                     </div>
                     <div className="mb-3">
                       <p className="mb-3">
-                        <div class="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
+                        <div className="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
                           Global News
                         </div>
                         <div className="border-2 border-red-600 w-16"></div>
@@ -39,7 +39,7 @@ export default function Newsroom() {
                     </div>
                     <div className="mb-3">
                       <p className="mb-3">
-                        <div class="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
+                        <div className="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
                           World News
                         </div>
                         <div className="border-2 border-red-600 w-16"></div>

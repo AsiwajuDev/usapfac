@@ -4,6 +4,11 @@ import { SITE_NAME } from "../lib/constants";
 import Frame from "../components/frame";
 
 export default function About() {
+  fetch("https://test.usapfac.org/wp-json/wp/v2/posts")
+    .then((response) => response.json())
+    .then((data) => console.log(data))
+    .catch((er) => console.log(err));
+
   return (
     <Layout imageUrl={{ backgroundImage: "url(/favicon/about-header.jpg)" }}>
       <Head>
@@ -27,12 +32,12 @@ export default function About() {
                   </p>
                 </div>
                 <div className="border-l-4 border-red-600 px-4">
-                  <div class="max-w-sm rounded bg-white overflow-hidden shadow-lg">
-                    <div class="px-6 py-4">
-                      <div class="text-green-400 font-semibold text-sm sm:text-lg lg:text-lg mb-2">
+                  <div className="max-w-sm rounded bg-white overflow-hidden shadow-lg">
+                    <div className="px-6 py-4">
+                      <div className="text-green-400 font-semibold text-sm sm:text-lg lg:text-lg mb-2">
                         A Substainable Goal to Grow Together
                       </div>
-                      <p class="text-gray-700 text-base">
+                      <p className="text-gray-700 text-base">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Voluptatibus quia, nulla! Maiores et perferendis
                         eaque, exercitationem praesentium nihil.
@@ -41,39 +46,39 @@ export default function About() {
                   </div>
                 </div>
               </div>
-              <div class="hidden md:block rounded w-64 bg-white justify-center overflow-hidden shadow-lg">
-                <div class="mx-12 py-4">
+              <div className="hidden md:block rounded w-64 bg-white justify-center overflow-hidden shadow-lg">
+                <div className="mx-12 py-4">
                   <div>
-                    <p className="mb-4">
-                      <div class="font-semibold uppercase text-sm sm:text-lg lg:text-lg mb-1">
+                    <div className="mb-4">
+                      <p className="font-semibold uppercase text-sm sm:text-lg lg:text-lg mb-1">
                         history
-                      </div>
+                      </p>
                       <div className="border-2 border-red-600 w-16"></div>
-                    </p>
+                    </div>
                     <div>
                       <Frame />
                     </div>
                   </div>
 
                   <div>
-                    <p className="mb-4">
-                      <div class="font-semibold uppercase text-sm sm:text-lg lg:text-lg mb-1">
+                    <div className="mb-4">
+                      <p className="font-semibold uppercase text-sm sm:text-lg lg:text-lg mb-1">
                         values
-                      </div>
+                      </p>
                       <div className="border-2 border-red-600 w-16"></div>
-                    </p>
+                    </div>
                     <div>
                       <Frame />
                     </div>
                   </div>
 
                   <div>
-                    <p className="mb-4">
-                      <div class="font-semibold uppercase text-sm sm:text-lg lg:text-lg mb-1">
+                    <div className="mb-4">
+                      <p className="font-semibold uppercase text-sm sm:text-lg lg:text-lg mb-1">
                         leadership
-                      </div>
+                      </p>
                       <div className="border-2 border-red-600 w-16"></div>
-                    </p>
+                    </div>
                     <div>
                       <Frame />
                     </div>

@@ -27,12 +27,12 @@ export default function Index() {
                   </p>
                 </div>
                 <div className="border-l-4 border-red-600 px-4">
-                  <div class="max-w-sm rounded bg-white overflow-hidden shadow-lg">
-                    <div class="px-6 py-4">
-                      <div class="text-green-400 font-semibold text-sm sm:text-lg lg:text-lg mb-2">
+                  <div className="max-w-sm rounded bg-white overflow-hidden shadow-lg">
+                    <div className="px-6 py-4">
+                      <div className="text-green-400 font-semibold text-sm sm:text-lg lg:text-lg mb-2">
                         A Substainable Goal to Grow Together
                       </div>
-                      <p class="text-gray-700 text-base">
+                      <p className="text-gray-700 text-base">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Voluptatibus quia, nulla! Maiores et perferendis
                         eaque, exercitationem praesentium nihil.
@@ -41,26 +41,22 @@ export default function Index() {
                   </div>
                 </div>
               </div>
-              <div class="hidden md:block rounded w-56 bg-white overflow-hidden shadow-lg">
-                <div class="px-6 py-4">
+              <div className="hidden md:block rounded w-56 bg-white overflow-hidden shadow-lg">
+                <div className="px-6 py-4">
                   <p className="mb-4">
-                    <div class="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
+                    <div className="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
                       Recent Posts
                     </div>
                     <div className="border-2 border-red-600 w-16"></div>
                   </p>
-                  {/* <p class="text-gray-700 text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
-                  </p> */}
+
                   <div>
                     <Frame />
                     <Frame />
                     <Frame />
                   </div>
                   <p className="mb-4">
-                    <div class="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
+                    <div className="capitalize font-bold text-sm sm:text-lg lg:text-lg mb-1">
                       Category
                     </div>
                   </p>

@@ -1,4 +1,3 @@
-import Alert from "../components/alert";
 import Footer from "../components/footer";
 import Meta from "../pages/meta";
 import Header from "./header";
